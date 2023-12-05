@@ -1,0 +1,1209 @@
+
+/*body start*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:white;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    
+}
+body{
+    background-color:#26335D;
+}
+/*body end*/
+
+/*page1 start*/
+#page1{
+    height:1037px;
+    width:100vw;
+    padding-top:0px;
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: 100vw 110vh;
+}
+/*page1 end*/
+
+/*navbar starting */
+#navbar{
+    margin-left: 9vw;
+    height:50px;
+    width: 70vw;
+    padding-left:5vw;
+    display:flex;
+    font-weight: 700;
+}
+#brandname{
+    height:30px;
+    width:152px;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    margin-top:20px
+}
+#icons{
+    height:28px;
+    width:300px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-top: 22px;
+}
+#login{
+    height:28px;
+    width: fit-content;
+    font-size: 14px;
+    line-height: 22px; 
+    letter-spacing: 0.2px;
+    margin-left:300px;
+    margin-top:22px;
+}
+#joinus{
+    margin-left: 40px;
+}
+#joinus button{
+    background-color: #8D5CF6;
+    border:none;
+    height:52px;
+    width:137px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    display: flex;
+    padding-top:15px;
+    padding-left: 25px;
+    margin-top: 7px;
+}
+#arrow{
+    margin-left: 15px;
+}
+/*navbar ending*/
+
+
+/*studinfo beginning*/
+
+#studinfo{
+    height:400px;
+    width:600px;
+    margin-top:122px;
+    margin-left:14vw;
+}
+#betterfuture{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+#trust{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    margin-top: 30px;
+    padding:0px;
+}
+#goal{
+    font-size: 20px;
+    font-weight:540;
+    line-height: 30px; 
+    letter-spacing: 1px;
+    margin-top: 30px;
+    width:396px;
+}
+#studinfobutton{
+    margin-top:30px;
+    display:flex;
+}
+#getquote{
+    width:193px;
+    height:52px;
+    background-color:#8D5CF6 ;
+    border:none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+}    
+#learnmore{
+    width:148px;
+    height:52px;
+    border-radius: 5px;
+    border:1px solid #ECECEC;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    padding-top: 15px;
+    margin-left: 10px;
+}
+/*studinfo end*/
+
+/*courses start*/
+#features{
+    height:292px;
+    width:1046px;
+    margin-left: 14vw;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.featuresblock{
+    width:328px;
+    height:292px;
+    background-color: white;
+    padding:35px 40px 35px 40px;
+}
+.iconborder{
+    height:76px;
+    width:70px;
+    border-radius: 10px;
+    padding: 22px 19px 22px 19px;
+    background-color: #E74040;
+}
+.courseheading{
+    color: #252B42;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-top:20px ;
+}
+.courseinfo{
+    color: #737373;
+    font-weight: 400;
+    size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-top:20px;
+
+}
+.lineimage{
+    height:2px;
+    width:50px;
+    margin-top:20px;
+}
+/*courses end*/
+
+/*page1 end*/
+
+/*page 2 start*/
+
+#page2{
+    height:264px;
+    width:100vw;
+}
+#subpage2{
+    height:264px;
+    width:1050px;
+    margin-left: 14vw;
+    display:flex;
+    justify-content: space-between;
+    padding-top:80px;
+}
+.achievements{
+    width:238px;
+    height:104px;
+    padding-bottom: 10px;
+}
+.numbers{
+    color:#8D5CF6;
+    font-weight:700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+.numberdetails{
+    font-size:16px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+/*page2 end*/
+
+/*page3 start*/
+#page3{
+    width:100vw;
+    height:660px;
+    border: 2px solid transparent;
+}
+#subpage3{
+    display:flex;
+    justify-content: space-between;
+    width:1036px;
+    height:395px;
+    margin-left:14vw;
+    margin-top: 170px;
+}
+#page3line{
+    height:7px;
+    width:94px;
+    margin-top:60px;
+}
+#page3image{
+    width:499px;
+    height:395px;
+}
+#mpcourse{
+    font-size:40px;
+    line-height:50px;
+    letter-spacing:0.2px;
+    font-weight:700;
+    margin-top: 30px;
+
+}
+#mpcourseinfo{
+    width:400px;
+    font-size:16px;
+    line-height:20px;
+    letter-spacing:1.3px;
+    font-weight:230;
+    margin-top:32px;
+}
+#page3lm{
+    display: flex;
+    margin-top:36px;
+    width:100px;
+    height:25px;
+}
+#page3lmtext{
+    color:#8D5CF6;
+    font-size:14px;
+    line-height:24px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+}
+#smallarrow{
+    height:16px;
+    width:8.62px;
+    margin-left:10px;
+    margin-top:4px;
+}
+/*page3 end*/
+
+/*page4 atart*/
+/*page4infostart*/
+#page4{
+    width:100vw;
+    height:1046px;
+    border: 2px solid transparent;
+}
+#page4info{
+    width:691px;
+    height:134px;
+    margin-top:105px;
+    margin-left: 14vw;
+}
+#p4courses{
+    color:#8D5CF6;
+    font-weight:700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+#qualityed{
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    margin-top:8px;
+}
+#conflict{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    margin-top: 12px;
+}
+/*page4infoend*/
+/*page4adstart*/
+#page4ads{
+    height:fit-content;
+    width:1049px;
+    margin-left:14vw;
+    margin-top: 115px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ads{
+    height:602px;
+    width:238px;
+    margin-bottom: 10px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 238px 300px;
+    padding-top:20px;
+    padding-left:20px;
+}
+#ad1{
+    background-image:url('ad1bg.png');
+}
+#ad2{
+    background-image:url('ad2bg.png');    
+}
+#ad3{
+    background-image:url('ad3bg.png');
+}
+#ad4{
+    background-image:url('ad4bg.png');
+}
+.sale{
+    background-color:#E74040;
+    height:24px;
+    width:51px;
+    border-radius: 3px;
+    padding:0px 10px 0px 10px;
+    font-weight:700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+.adicons{
+    height:40px;
+    width:140px;
+    display:flex;
+    justify-content: space-between;
+    margin-top:190px;
+    margin-left:29px;
+}
+.icon{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.adline1{
+    color:#8D5CF6;
+    font-weight:700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.adline1div{
+    display: flex;
+    height:35px;
+    margin-top: 46px;
+    margin-left: 4px;
+}
+.rating{
+    margin-left: 85px;
+}
+.adline2{
+    color:#252B42;
+    font-weight:700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-left: 3px;
+}
+.adline3{
+    color:#737373;
+    font-weight:400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+    margin-left: 3px;
+    width:200px;
+}
+.adline4{
+    color:#737373;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-top:7px;
+    margin-left:4px;
+}
+.download{
+    margin-right:6px;
+}
+.adline5{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-left: 4px;
+    margin-top: 10px;    ;
+
+}
+#adl5span1{
+    color:#BDBDBD;
+}
+#adl5span2{
+    color:#FF7B52;
+    margin-left: 4px;;
+}
+
+.adline6div{
+    display: flex;
+    margin-top:20px;
+    margin-left:3px;
+    width:141px;
+    height:44px;
+    align-items: center;
+    padding-left: 24px;
+    border:1px solid #8D5CF6;
+    border-radius: 37px;
+}
+.adline6{
+    color:#8D5CF6;
+    font-size:14px;
+    line-height:24px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+}
+#smallarrow{
+    height:16px;
+    width:8.62px;
+    margin-left:10px;
+    margin-top:4px;
+}
+/*page4adsend*/
+/*page4end*/
+
+/*page5start*/
+#page5{
+    width:100vw;
+    height:827px;
+    border:2px solid transparent;
+}
+/*page5infostart*/
+#page5info{
+    width:691px;
+    height:134px;
+    margin-top:155px;
+    margin-left: 14vw;
+}
+#p5testmonials{
+    color:#8D5CF6;
+    font-weight:700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+#expertteachers{
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    margin-top:8px;
+}
+#conflict{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    margin-top: 12px;
+}
+/*page5infoend*/
+
+/*page5teachersstart*/
+#teachers{
+    height:350px;
+    width:860px;
+    margin-left: 15vw;
+    margin-top: 100px;
+    display:flex;
+    justify-content: space-between;
+}
+.teachername{
+    font-size:40px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    margin-top:20px;
+    margin-left:5px;
+}
+#mrviper{
+    margin-top:30px;
+}
+/*page5teachersend*/
+/*page5end*/
+
+/*page6start*/
+#page6{
+    height:594px;
+    width:100vw;
+    border:2px solid transparent;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#newsletter{
+    height:fit-content;
+    width:fit-content;
+    color:#8D5CF6;
+    font-weight:700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-top: 160px;
+}
+#package{
+    height:fit-content;
+    width:fit-content;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+#packagetag{
+    height:fit-content;
+    width:500px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+#email{
+    width:688px;
+    height:59px;
+    margin-top: 80px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.mail{
+    height:58px;
+    width:568px;
+    border:none;
+    border-radius: 5px;
+}
+.mail::placeholder{
+    color:#737373;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 28px;
+    padding-left: 20px;
+}
+input{
+    outline:none;
+    color:black;
+}
+#mailbtn{
+    font-weight: 400;
+    font-size: 14px;
+    height:58px;
+    width:115px;
+    background-color:#8D5CF6;
+    border:1px solid white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+/*page6end*/
+/*footerstart*/
+#footer{
+    height:272px;
+    width:100vw;
+    border:1px solid transparent;
+    padding-left: 15vw;
+    padding-top: 50px;
+}
+#subfooter{
+    height:170px;
+    width:1041px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerdata{
+    height:170px;
+    width:148px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+#footerdata5{
+    width:321px;
+    height:140px;
+}
+.frheading{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+.frsubheading{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing:0.2px;
+}
+
+/*lastfooter*/
+#number{
+    display:flex;
+}
+#calldata{
+    margin-left: 10px;
+}
+#call{
+    margin-left: 120px;
+}
+#address{
+    display:flex;
+}
+#location{
+    margin-left: 0px;
+}
+#locationdata{
+    margin-left:10px;
+}
+#mailid{
+    display:flex;
+}
+#mailbox{
+    margin-left: 90px;
+}
+#mailboxdata{
+    margin-left:10px;
+}
+
+/*lastfooter*/
+
+
+/*effects start*/
+*{
+
+}
+#learnmore:hover{
+    cursor: pointer;
+    background-color:#8080809e;
+    color:rgba(0, 0, 0, 0.966);
+    border:none;
+}
+#login:hover{
+    color:yellow;
+    cursor: pointer;
+}
+.navbtns{
+    transition-property: all;
+    transition-duration: 2s;
+}
+.navbtns:hover{
+    color:yellow;
+    cursor:pointer;
+}
+#backtotop{
+    position:fixed;
+    bottom:4vh;
+    right:3vw;
+    height:7vh;
+    width:7vh;
+    border-radius: 50%;
+    background-color: white;
+}
+#uparrow{
+    height:7vh;
+    width:7vh;
+}
+a{
+    text-decoration:none;
+}
+html{
+    scroll-behavior:smooth;
+}
+/*effects end*/
+
+/*mediaqueries start*/
+
+/*mq1start*/
+
+
+/*mq2start*/
+@media screen and (max-width: 1250px) and (min-width:750px){
+
+    *{
+
+    }
+    #page1{
+        background-size:100vw 105vh;
+        width:97.5vw;
+    }
+    #navbar{
+        height:fit-content;
+        width:60vw;
+        margin-left:0px;
+    }
+    #icons{
+        margin-left:none;
+        margin-left: 4vw;
+    }
+    .navbtns{
+        margin-left:10px;
+    }
+    #login{
+        margin-left: 13vw;
+    }
+    #joinus{
+        margin-left: 4vw;
+    }
+    
+    #studinfo{
+        margin-top:12vw;
+        margin-left: 5vw;
+    }
+    #goal{
+        letter-spacing: 0.4px;
+        width:45vw;
+    }
+    #getquote{
+        width:20vw;
+    }
+    #learnmore{
+        width:17vw;
+    }
+    /*courses start*/
+    #features{
+        margin-left:5vw;
+        width:90vw;
+    }
+    .featuresblock{
+        width:28vw;
+        padding:1vw 2vw 1vw 20px;
+    }
+
+    /*page2start*/
+    #page2{
+        width:97.5vw;
+    }
+    #subpage2{
+        width:90vw;
+        margin-left:5vw;
+    }
+    .numbers{
+        font-size: 7vw;
+    }
+    /*page3start*/
+    #subpage3{
+        width:90vw;
+        margin-left: 5vw;
+    }
+    #page3line{
+        width:40vw;
+    }
+    #page3image{
+        width:40vw;
+    }
+    #mpcourse{
+        width:33vw;
+    }
+    #mpcouseinfo{
+    }
+    #page3line{
+        width:11vw;
+    }
+    /*page4start*/
+    #page4{
+        height:fit-content;
+        width:98vw;
+    }
+    #page4info{
+        width:90vw;
+        margin-left: 5vw;
+    }
+    #page4ads{
+        width:90vw;
+        margin-left: 5vw;
+        height:fit-content;
+    }
+
+    /*page5start*/
+    #page5info{
+        width:90vw;
+        margin-left: 5vw;
+    }
+    #teachers{
+        width:90vw;
+        margin-left: 5vw;
+    }
+    /*page6start*/
+    #email{
+        width:fit-content;
+        height:8vw;
+    }
+    .mail{
+        width:54.6vw;
+        height:7.8vw;
+    }
+    #mailbtn{
+        width:14.6vw;
+        height:8vw;
+    }
+    #footer{
+        width:90vw;
+        height:fit-content;
+        padding-left: 5vw;
+    }
+    #subfooter{
+        width:90vw;
+        height:fit-content;
+        flex-wrap: wrap;
+    }
+    .footerdata{
+        margin-bottom: 10px;
+    }
+}
+
+/*new media query*/
+@media screen and (max-width: 500px) and (min-width:350px){
+
+    *{
+        
+    }
+    #page1{
+        background-size:100vw 105vh;
+        width:97.5vw;
+        height:fit-content;
+    }
+    #navbar{
+        height:fit-content;
+        width:60vw;
+        margin-left:0px;
+        display:block;
+    }
+    #icons{
+        margin-left:none;
+        margin-left: 4vw;
+    }
+    .navbtns{
+        margin-left:10px;
+    }
+    #login{
+        margin-left: 13vw;
+    }
+    #joinus{
+        margin-left: 4vw;
+    }
+    
+    #studinfo{
+        width:60vw;
+        height:50vw;
+        margin-top:12vw;
+        margin-left: 5vw;
+    }
+    #goal{
+        letter-spacing: 0.4px;
+        width:45vw;
+    }
+    #getquote{
+        width:30vw;
+    }
+    #learnmore{
+        width:23vw;
+
+    }
+    /*courses start*/
+    #features{
+        margin-top: 500px;
+        margin-left:0px;
+        width:100vw;
+    }
+    .featuresblock{
+        width:55vw;
+        height:fit-content;
+        margin-right: 12px;
+        margin-bottom: 30vw;
+        padding:1vw 2vw 1vw 20px;
+    }
+
+    /*page2start*/
+    #page2{
+        width:97.5vw;
+    }
+    #subpage2{
+        width:90vw;
+        margin-left:3vw;
+        margin-top: 40vw;
+    }
+    .numbers{
+        font-size: 7vw;
+    }
+    /*page3start*/
+    #page3{
+        height:fit-content;
+    }
+    #subpage3{
+        width:80vw;
+        height:fit-content;
+        margin-left: 5vw;
+        flex-direction: column;
+    }
+    #page3line{
+        width:30vw;
+
+    }
+    #page3image{
+        margin-top: 10vw;
+        margin-left: 8vw;
+        width:50vw;
+    }
+    #page3lm{
+        width:30vw;
+    }
+    #mpcourse{
+        width:33vw;
+    }
+    #mpcouseinfo{
+    }
+    #page3line{
+        width:11vw;
+    }
+    /*page4start*/
+    #page4{
+        height:fit-content;
+        width:98vw;
+    }
+    #page4info{
+        width:90vw;
+        margin-left: 5vw;
+    }
+    #page4ads{
+        width:90vw;
+        margin-left: 25vw;
+        margin-top:40vw;
+        height:fit-content;
+    }
+
+    /*page5start*/
+    #page5{
+        height:fit-content;
+        margin-bottom: 100vw;
+    }
+    #page5info{
+        width:90vw;
+        margin-left: 5vw;
+    }
+    #teachers{
+        width:90vw;
+        margin-top: 40vw;
+        margin-left: 5vw;
+        flex-direction: column;
+    }
+    .teacherpics{
+        margin-left:23vw;
+    }
+    .teachername{
+        margin-bottom:10vw;
+    }
+    /*page6start*/
+    #pag6{
+        margin-top:50vh;
+        height:fit-content;
+    }
+    #newsletter{
+        margin-top: 90vw;
+    }
+    #email{
+        width:fit-content;
+        height:8vw;
+        margin-top:10vh;
+    }
+    .mail{
+        
+        width:54.6vw;
+        height:7.8vw;
+    }
+    #mailbtn{
+        width:14.6vw;
+        height:8vw;
+    }
+    #footer{
+        width:90vw;
+        height:fit-content;
+        padding-left: 5vw;
+        margin-top: 35vh;
+    }
+    #subfooter{
+        width:90vw;
+        height:fit-content;
+        flex-wrap: wrap;
+    }
+    .footerdata{
+        margin-bottom: 10px;
+    }
+}
+
+/*new media query*/
+@media screen and (max-width:750px) and (min-width:500px){
+    *{
+    }
+    #page1{
+        background-size:100vw 105vh;
+        width:97.5vw;
+        height:fit-content;
+    }
+    #navbar{
+        height:fit-content;
+        width:60vw;
+        margin-left:0px;
+        display: block;
+    }
+    
+    #studinfo{
+        width:60vw;
+        height:50vw;
+        margin-top:12vw;
+        margin-left: 5vw;
+    }
+    #goal{
+        letter-spacing: 0.4px;
+        width:45vw;
+    }
+    #getquote{
+        width:30vw;
+    }
+    #learnmore{
+        width:23vw;
+
+    }
+    /*courses start*/
+    #features{
+        margin-top: 500px;
+        margin-left:0px;
+        width:100vw;
+    }
+    .featuresblock{
+        width:45vw;
+        height:fit-content;
+        margin-right: 12px;
+        margin-bottom: 30vw;
+        padding:1vw 2vw 1vw 20px;
+    }
+
+    /*page2start*/
+    #page2{
+        width:97.5vw;
+        margin-bottom: 30vw;
+    }
+    #subpage2{
+        width:90vw;
+        margin-left:3vw;
+        margin-top: 40vw;
+    }
+    .numbers{
+        font-size: 7vw;
+    }
+    /*page3start*/
+    #page3{
+        height:fit-content;
+    }
+    #subpage3{
+        width:80vw;
+        height:fit-content;
+        margin-left: 5vw;
+        flex-direction: column;
+    }
+    #page3line{
+        width:30vw;
+
+    }
+    #page3image{
+        margin-top: 10vw;
+        margin-left: 8vw;
+        width:50vw;
+    }
+    #page3lm{
+        width:30vw;
+    }
+    #mpcourse{
+        width:33vw;
+    }
+    #mpcouseinfo{
+    }
+    #page3line{
+        width:11vw;
+    }
+    /*page4start*/
+    #page4{
+        height:fit-content;
+        width:98vw;
+    }
+    #page4info{
+        width:90vw;
+        margin-left: 5vw;
+    }
+    #page4ads{
+        width:90vw;
+        margin-left: 5vw;
+        margin-top:40vw;
+        height:fit-content;
+    }
+
+    /*page5start*/
+    #page5{
+        height:fit-content;
+        margin-bottom: 100vw;
+    }
+    #page5info{
+        width:90vw;
+        margin-left: 5vw;
+    }
+    #teachers{
+        width:90vw;
+        margin-top: 40vw;
+        margin-left: 5vw;
+        flex-direction: column;
+    }
+    .teacherpics{
+        margin-left:23vw;
+    }
+    .teachername{
+        margin-bottom:10vw;
+    }
+    /*page6start*/
+    #pag6{
+        margin-top:50vh;
+        height:fit-content;
+    }
+    #newsletter{
+        margin-top: 90vw;
+    }
+    #email{
+        width:fit-content;
+        height:8vw;
+        margin-top:10vh;
+    }
+    .mail{
+        
+        width:54.6vw;
+        height:7.8vw;
+    }
+    #mailbtn{
+        width:14.6vw;
+        height:8vw;
+    }
+    #footer{
+        width:90vw;
+        height:fit-content;
+        padding-left: 5vw;
+        margin-top: 65vw;
+    }
+    #subfooter{
+        width:90vw;
+        height:fit-content;
+        flex-wrap: wrap;
+    }
+    .footerdata{
+        margin-bottom: 10px;
+    }
+}
+
